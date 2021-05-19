@@ -3,7 +3,7 @@ class Product
 {	
 	int pcode,price;
 	String pname;
-	public static Void main (String args[])
+	public static void main(String[] args)
 	{
 		Scanner in = new Scanner(System.in);
 		Product p[] = new Product[3];
@@ -41,3 +41,33 @@ class Product
 		}
 	}
 }
+/*
+OUTPUT
+==========================================================================================
+ENTER THE PRODUCT DETAILS:
+PRODUCT CODE:
+1
+PRODUCT NAME:
+RAM
+PRODUCT PRICE:
+50000
+ENTER THE PRODUCT DETAILS:
+PRODUCT CODE:
+2
+PRODUCT NAME:
+ROM
+PRODUCT PRICE:
+2050
+ENTER THE PRODUCT DETAILS:
+PRODUCT CODE:
+3
+PRODUCT NAME:
+GCARD
+PRODUCT PRICE:
+5000
+PRODUCT WITH MINIMUM PRICE:
+PRODUCT CODE: 2
+PRODUCT NAME: ROM
+PRODUCT PRICE: 2050
+==========================================================================================
+*/
