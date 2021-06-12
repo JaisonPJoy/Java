@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class C1Q2
+{	
+	int pcode,price;
+	String pname;
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		C1Q2 p[] = new C1Q2[3];
+		for(int i=0;i<3;i++)
+		{
+			p[i] = new C1Q2();
+			System.out.println("ENTER THE PRODUCT DETAILS:");
+			System.out.println("PRODUCT CODE:");
+			p[i].pcode = in.nextInt();
+			System.out.println("PRODUCT NAME:");
+			p[i].pname = in.next();
+			System.out.println("PRODUCT PRICE:");
+			p[i].price = in.nextInt();
+		}
+		if(p[0].price<p[1].price && p[0].price<p[2].price)
+		{
+       	    System.out.println("PRODUCT WITH MINIMUM PRICE:");
+			System.out.println("PRODUCT CODE: " + p[0].pcode);
+			System.out.println("PRODUCT NAME: " + p[0].pname);
+			System.out.println("PRODUCT PRICE: " + p[0].price);
+		}
+		else if (p[1].price<p[2].price) 
+		{
+			System.out.println("PRODUCT WITH MINIMUM PRICE:");
+			System.out.println("PRODUCT CODE: " + p[1].pcode);
+			System.out.println("PRODUCT NAME: " + p[1].pname);
+			System.out.println("PRODUCT PRICE: " + p[1].price);
+		}
+		else
+		{
+			System.out.println("PRODUCT WITH MINIMUM PRICE:");
+			System.out.println("PRODUCT CODE: " + p[2].pcode);
+			System.out.println("PRODUCT NAME: " + p[2].pname);
+			System.out.println("PRODUCT PRICE: " + p[2].price);
+		}
+	}
+}
