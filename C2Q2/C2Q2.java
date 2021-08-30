@@ -27,7 +27,7 @@ class Teacher extends Employees{
         System.out.println("ENTER THE SUBJECT NAME:");
         sub = in.next();
     }
-    void display()
+    void displayDetails()
     {
         System.out.println("EMPLOYEE DETAILS");
         System.out.println("================");
@@ -52,7 +52,7 @@ public class C2Q2
         for (int i=0;i<n;i++)
         {
             ob[i] = new Teacher();
-            ob[i].display();
+            ob[i].displayDetails();
         }
     }
 }
