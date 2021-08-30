@@ -44,6 +44,6 @@ class C2Q1
 		System.out.println("ENTER THE HEIGHT OF THE CYLINDER:");
 		hgt = in.nextInt();
 		v = ob.area(rad,hgt);
-		System.out.println("AREA OF THE CYLINDER: "+v);
+		System.out.println("AREA OF THE CYLINDER: "+ v);
 	}
 }
