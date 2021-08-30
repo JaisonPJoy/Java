@@ -54,7 +54,7 @@ class Teacher extends Employee{
         techrID = in.nextInt();
         System.out.println("================");
     }
-    void display()
+    void displayDetails()
     {
         System.out.println("DETAILS");
         System.out.println("****************");
@@ -82,7 +82,7 @@ public class C2Q3 {
         for (int i=0;i<n;i++)
         {
             ob[i]=new Teacher();
-            ob[i].display();
+            ob[i].displayDetails();
         }
     }
 }
