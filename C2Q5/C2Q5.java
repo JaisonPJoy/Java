@@ -19,7 +19,7 @@ class Student
 		totalSubjetMark = in.nextInt();
 	}
 }
-interface Sports
+interface Sports   
 {
 	final int sportsMark = 20;
 }
