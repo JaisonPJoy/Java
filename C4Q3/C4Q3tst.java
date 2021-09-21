@@ -41,7 +41,7 @@ public class C4Q3tst extends Applet implements MouseListener
 		g.setColor(Color.red); 
 		g.fillPolygon(x,y,3); //roof
 
-		if(color.equals("red"))
+		if(color.equals("red")) //REPAINTING THE HOUSE ON MOUSE CLICK
 		{
 			g.setColor(Color.pink);
 			g.fillRect(150,150,150,200); //house
