@@ -27,38 +27,38 @@ class FileHandling
 	void displayMainFile() throws Exception
 	{
 		BufferedReader evenbuffer = new BufferedReader(new FileReader("C4Q4.txt"));
-        System.out.println("C4Q4.txt");
-        System.out.println("-----------------------------------------");
-        String st;
-        while ((st = evenbuffer.readLine()) != null)
-        {
-            System.out.println(st);
-        }
-        System.out.println("");
+        	System.out.println("C4Q4.txt");
+        	System.out.println("-----------------------------------------");
+        	String st;
+        	while ((st = evenbuffer.readLine()) != null)
+        	{
+           		 System.out.println(st);
+        	}
+        	System.out.println("");
 	}
 	void displayEvenFile() throws Exception
 	{
 		BufferedReader evenbuffer = new BufferedReader(new FileReader("C4Q4EVEN.txt"));
-        System.out.println("C4Q4EVEN.txt");
-        System.out.println("-----------------------------------------");
-        String st;
-        while ((st = evenbuffer.readLine()) != null)
-        {
-            System.out.println(st);
-        }
-        System.out.println("");
+        	System.out.println("C4Q4EVEN.txt");
+        	System.out.println("-----------------------------------------");
+        	String st;
+        	while ((st = evenbuffer.readLine()) != null)
+        	{
+            		System.out.println(st);
+        	}
+        	System.out.println("");
 	}
 	void displayOddFile() throws Exception
 	{
 		BufferedReader oddbuffer = new BufferedReader(new FileReader("C4Q4ODD.txt"));
-        System.out.println("C4Q4ODD.txt");
-        System.out.println("-----------------------------------------");
-        String st;
-        while ((st = oddbuffer.readLine()) != null)
-        {
-            System.out.println(st);
-        }
-        System.out.println("");
+        	System.out.println("C4Q4ODD.txt");
+        	System.out.println("-----------------------------------------");
+        	String st;
+        	while ((st = oddbuffer.readLine()) != null)
+        	{
+           		System.out.println(st);
+        	}
+       		System.out.println("");
 	}
 }
 class C4Q4test 
