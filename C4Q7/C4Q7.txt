@@ -1,0 +1,6 @@
+java program
+to find
+no of lines
+no words
+and no of characters
+in a file
